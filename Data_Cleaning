@@ -1,0 +1,10 @@
+Floats - same number of decimal point (d.p.)
+Strings - Uniformed
+  - NIKE, Nike, nike --> "Nike"
+Empty rows - fill them with "Nulls"/leave empty
+Sparse column - so if have 5k data points and only 400 data points = filled then column = redundant
+  - but not sure if should be retained or dropped
+
+column: biscuits £1 - 10    - 200/500 data p = filled - we can interpolate
+column: cars     £10k - 35k - 400/2k data p = filled - too sparse may not be able to interpolate
+column: phones   £500 - 2k - 300/4k data p filled - too sparse may not be able to interpolate
